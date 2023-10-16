@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/keywardo/static/css/main.af65a593.css",
+    "main.js": "/keywardo/static/js/main.95e26c0b.js",
+    "static/js/787.2f4c9e60.chunk.js": "/keywardo/static/js/787.2f4c9e60.chunk.js",
+    "static/media/AdSecond.png": "/keywardo/static/media/AdSecond.f34e2b1e4923355d98f6.png",
+    "static/media/AdFirst.png": "/keywardo/static/media/AdFirst.ea201c8bfc30acd7f325.png",
+    "index.html": "/keywardo/index.html",
+    "main.af65a593.css.map": "/keywardo/static/css/main.af65a593.css.map",
+    "main.95e26c0b.js.map": "/keywardo/static/js/main.95e26c0b.js.map",
+    "787.2f4c9e60.chunk.js.map": "/keywardo/static/js/787.2f4c9e60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af65a593.css",
+    "static/js/main.95e26c0b.js"
+  ]
+}
