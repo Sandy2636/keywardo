@@ -1,0 +1,10 @@
+.homeLayout{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .childHolder{
+        padding: 36px;
+        background-color: #fafafa;
+        flex-grow:1;
+    }
+} 

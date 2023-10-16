@@ -1,0 +1,100 @@
+.gridBody{
+    padding: 20px;
+    display: grid;
+    margin:  0 -16px;
+    grid-template-columns: repeat(12 , minmax(0 , 1fr));
+    grid-template-rows: minmax(50px , auto);
+    gap: 2vw;
+    .grid-item{
+        height: 50px;
+        input, textarea{
+            width: calc(100% - 2vw + 7px);
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+        }
+    }
+}
+
+.item-1{
+    grid-column: span 6 / span 6;   
+}
+.item-2{
+    grid-column: span 6 / span 6;  
+    grid-row: span 2/ span 2; 
+    height: 120px !important;
+    textarea{
+        height: 100px;
+        
+    }
+}
+.item-3{
+    grid-column: span 6 / span 6;   
+}
+.item-4{
+    grid-column: span 4 / span 4;   
+}
+.item-5{
+    grid-column: span 4 / span 4;   
+}
+.item-6{
+    grid-column: span 4 / span 4;   
+}
+.item-7{
+    grid-column: span 12 / span 12;   
+}
+.item-8{
+    grid-column: span 6 / span 6;   
+}
+.item-9{
+    grid-column: span 6 / span 6;   
+}
+.item-10{
+    grid-column: span 12 / span 12;   
+}
+
+.createForm{
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    .actionBtnHolder{
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 20px;
+        button{
+            padding: 8px 40px; 
+            background-color: #fff;
+            cursor: pointer;
+        }
+        .submitBtn{
+            border: var(--cta-color);
+            background-color: var(--cta-color);
+            color: #fff;
+        }
+    }
+}
+
+.modal_container{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px 70px;
+    div{
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+.inputHolder{
+    position: relative;
+    .error{
+        position: absolute;
+        bottom: -4px;
+        left: 8px;
+        font-size: 10px;
+        color: red;
+    }
+}

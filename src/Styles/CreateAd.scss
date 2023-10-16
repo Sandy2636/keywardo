@@ -1,0 +1,56 @@
+.creatAdContainer{
+    background-color: white;
+    border: 1px solid var(--border-color);
+    min-height: 80vh;
+    padding: 16px;
+    .itemHolder{
+        height: 72vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        .adContainer{
+            border-radius: 16px;
+            padding: 16px;
+            -webkit-box-shadow: 1px 1px 24px -4px rgba(94,90,94,1);
+-moz-box-shadow: 1px 1px 24px -4px rgba(94,90,94,1);
+box-shadow: 1px 1px 24px -4px rgba(94,90,94,1);
+            .adHeader{
+                .input{
+                   height: 20px;
+                   width: 20px;
+                }
+            }
+            .adBody{
+                text-align: center;
+                img{
+                    width: 80%;
+                }
+            }
+            .adFooter{
+                text-align: center;
+                padding: 12px 0 28px 0;
+                background-color: var(--border-color);
+                margin: 0 -16px -16px -16px;
+                border: 3px solid white;
+                border-bottom-left-radius: 16px;
+                border-bottom-right-radius: 16px;
+                h5{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .actionBtn{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 16px;
+        button{
+            padding: 8px 40px;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+    }
+}
